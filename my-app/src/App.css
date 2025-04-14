@@ -1,0 +1,58 @@
+.app {
+  max-width: 700px;
+  margin: auto;
+  padding: 2rem;
+  font-family: sans-serif;
+  color: #333;
+}
+
+.sentence {
+  margin: 1rem 0;
+  line-height: 1.6;
+  font-size: 1.2rem;
+}
+
+.blank {
+  display: inline-block;
+  min-width: 80px;
+  margin: 0 5px;
+  padding: 4px 8px;
+  border-bottom: 2px solid #000;
+  cursor: pointer;
+}
+
+.blank.filled {
+  background: #e0f7fa;
+}
+
+.options button {
+  margin: 0.5rem;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  align-items: center;
+}
+
+.result-screen {
+  margin-top: 2rem;
+}
+
+.result-item {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-left: 5px solid;
+}
+
+.result-item.correct {
+  border-left-color: green;
+}
+
+.result-item.incorrect {
+  border-left-color: red;
+}
